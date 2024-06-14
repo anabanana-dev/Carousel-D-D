@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-D&D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Dungeons & Dragons</h1>
+    </header>
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">Barbáro</h2>
+                <img class="imagem-personagem" src="./src/imagens/barbaro1.jpg" alt="Barbáro">
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        O Bárbaro é a classe que expressa a pura fúria e força bruta. Ela é frequentemente usada por jogadores que desejam estar na linha de frente do combate, absorvendo dano e devolvendo os golpes com grande intensidade. Sendo um bárbaro você consegue entrar em fúria para aumentar seu poder de combate, resistir a danos físicos e, principalmente, ser o pilar de força em batalhas. Por isso, ele é conhecido como uma classe que domina o campo de batalha com sua presença imponente e capacidade de sobrevivência. Além disso, podemos dizer que ele é único por causa da sua diversidade de subclasses que humanizam esta furiosa classe de D&D 5e.
+                    </p>
+                </div>
+            </li>
+
+           <li class="cartao fundo-2">
+                <h2 class="nome">Druida</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/druida1.jpg" alt="Druida" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A classe Druida possui uma diversidade muito grande! Por isso, o Druida é um querido de muitos jogadores, pois ele pode conjurar magias ligadas à natureza, curar aliados e controlar o campo de batalha com feitiços que manipulam o terreno e o clima. Além disso, ele tem o poder de transformar-se em criaturas através da magia Forma Selvagem. Dessa forma, ele só precisa ter visto o animal uma vez para poder se transformar nele pelo resto da vida.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <h2 class="nome">Bardo</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/bardo2.jpg" alt="Bardo" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Primeiramente, o bardo não é apenas o fanfarrão. O bardo é uma classe que combina magia e habilidades sociais. Portanto, ele consegue ser uma classe de Dungeons & Dragons 5e muito versátil e capaz de se adaptar a diversas situações, tanto em combate quanto fora dele. O Bardo é uma classe para quem gosta de contar histórias, influenciar pessoas e explorar o poder das palavras e da música. Porém, não ache que o Bardo é personagem simples de jogar. Ele possui magia e uma ampla gama de habilidades que requerem um bom entendimento de suas mecânicas e estratégias. O seu atributo principal o Carisma, usado para melhorar suas habilidades de performance e persuasão e potencializar seus feitiços.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <h2 class="nome">Clérigo</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/clérigo.jpg" alt="Clérigo" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O clérigo! Ah, o clérigo! Essa é uma classe amada e os combeiros amam o clérigo. Primeiramente, essa é uma classe que une fé divina e poder arcana. Além disso, essa classe de D&D 5e é conhecida por sua versatilidade em combate e habilidades de cura, e ficou muito famosa graças a Shadowheart do jogo Baldur’s Gate 3. Cujos marmanjos e marmanjas se apaixonaram pelo seu poder, delicadeza e história complexa que envolve luz e sombra.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-5">
+                <h2 class="nome">Bruxo</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/bruxa.jpg" alt="Bruxa" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O Bruxo é uma classe de D&D 5e que possui sua magia proveniente de um pacto com uma entidade sobrenatural, como um arquifada, um demônio ou um ser de outro mundo. Dessa forma, o Bruxo fica ligado a essa entidade até o término de seu contrato. Porém, apesar do lado negativo de ficar preso aos favores para uma entidade, você pode usar seus poderes. Assim, isso traz uma combinação única de habilidades mágicas e invocações que são personalizáveis para o Bruxo.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-6">
+                <h2 class="nome">Ladino</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/ladino.jpg" alt="Ladino" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A classe Ladino é para quem gosta de ser um mestre das sombras, andar em silêncio e sumir no vazio. Em D&D 5e, uma das principais características do Ladino é sua habilidade de causar dano adicional com ataques surpresa, conhecido como Ataque Furtivo (logo no 1º nível) . Além disso, ele também é capaz de desarmar armadilhas e abrir fechaduras e de mover-se furtivamente para evitar ser detectado. Portanto, saiba que o Ladino consegue utilizar suas habilidades para influenciar o curso de eventos tanto em combate quanto em situações de roleplay, e isso deixará sua mesa de RPG muito intrigante.</p>
+                </div>
+            </li> 
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
